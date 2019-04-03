@@ -9,3 +9,6 @@
 	filter: blur(3px);
 }
 
+.word {
+	display: inline;
+}
