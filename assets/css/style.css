@@ -6,9 +6,23 @@
 	height: 100vh;
 	width: 100vw;
 	display: grid;
-	filter: blur(3px);
+	filter: blur(1.5px);
+}
+
+body {
+	padding-top: 5vw;
+	background-color: #dddddd;
+	background-image: url("../images/paper.png");
+	background-size: 100vw;
+	overflow-x: hidden;
+	background-repeat: repeat-y;
 }
 
 .word {
 	display: inline;
+}
+
+img {
+	width: 10vw;
+	height: 10vw;
 }
