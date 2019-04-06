@@ -1,5 +1,6 @@
 #line1, #line2, #line3, #line4{
 	text-align: center;
+	align-self: center;
 }
 
 #wrapper {
@@ -10,7 +11,6 @@
 }
 
 body {
-	padding-top: 5vw;
 	background-color: #dddddd;
 	background-image: url("../images/paper.png");
 	background-size: 100vw;
@@ -21,9 +21,11 @@ body {
 
 .word {
 	display: inline;
+	align-self: center;
 }
 
 img {
 	width: 10vw;
 	height: 10vw;
+	align-self: center;
 }
