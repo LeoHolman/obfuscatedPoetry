@@ -7,6 +7,12 @@ var text;
 var clicked = false;
 var lastClicked;
 
+function randomInt(highestPossibleNumber){
+    console.log("called");
+    return 1 + Math.round(Math.random() * (highestPossibleNumber - 1));
+}
+
+
 function wordToPicture(divID){
     if(lastClicked !== divID){
         if(lastClicked){
@@ -16,7 +22,7 @@ function wordToPicture(divID){
         text = div.innerHTML;
         div.innerHTML = '';
         let newPictureNode = document.createElement("IMG");
-        newPictureNode.src = `assets/images/${divID}/${divID}1.jpg`;
+        newPictureNode.src = `assets/images/${divID}/${divID}${randomInt(3)}.jpg`;
         div.appendChild(newPictureNode);
         clicked = true;
         
