@@ -23,7 +23,7 @@ function wordToPicture(divID){
         text = div.innerHTML;
         div.innerHTML = '';
         let newPictureNode = document.createElement("IMG");
-        newPictureNode.src = `assets/images/${divID}/${divID}${randomInt(3)}.jpg`;
+        newPictureNode.src = `assets/images/${divID}/${divID}${randomInt(3)}.png`;
         div.appendChild(newPictureNode);
         clicked = true;
         
