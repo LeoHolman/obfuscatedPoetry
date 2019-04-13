@@ -7,7 +7,7 @@
 	height: 100vh;
 	width: 100vw;
 	display: grid;
-	filter: blur(3px);
+	
 }
 
 body {
@@ -22,6 +22,11 @@ body {
 .word {
 	display: inline;
 	align-self: center;
+	filter: blur(3px);
+}
+
+.word > img {
+	filter: blur(0px);
 }
 
 img {

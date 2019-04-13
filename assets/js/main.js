@@ -9,7 +9,6 @@ var clicked = false;
 var lastClicked;
 
 function randomInt(highestPossibleNumber){
-    console.log("called");
     return 1 + Math.round(Math.random() * (highestPossibleNumber - 1));
 }
 
@@ -26,9 +25,8 @@ function wordToPicture(divID){
         newPictureNode.src = `assets/images/${divID}/${divID}${randomInt(3)}.png`;
         div.appendChild(newPictureNode);
         clicked = true;
-        
         lastClicked = divID;
-
+        div.style = "filter: none;"
     }
 }
 
@@ -40,6 +38,7 @@ function pictureToWord(divID){
         }
         div.innerHTML = text;
         clicked = false;
+        div.style= "filter: blur(3px);"
     }
 }
 
