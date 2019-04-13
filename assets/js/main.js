@@ -1,7 +1,8 @@
-const path = document.getElementById("path");
+const something = document.getElementById("something");
+const afraid = document.getElementById("afraid");
 const darkness = document.getElementById("darkness");
-const trudge = document.getElementById("trudge");
-const nightmare = document.getElementById("nightmare");
+const silence = document.getElementById("silence");
+const night = document.getElementById("night");
 
 var text;
 var clicked = false;
@@ -42,18 +43,26 @@ function pictureToWord(divID){
     }
 }
 
-path.addEventListener("click", () => {
-    wordToPicture("path");  
+something.addEventListener("click", () => {
+    wordToPicture("something");  
+});
+
+afraid.addEventListener("click", () => {
+    wordToPicture("afraid");  
 });
 
 darkness.addEventListener("click", () => {
     wordToPicture("darkness");  
 });
 
-trudge.addEventListener("click", () => {
-    wordToPicture("trudge");  
+shadow.addEventListener("click", () => {
+    wordToPicture("shadow");  
 });
 
-nightmare.addEventListener("click", () => {
-    wordToPicture("nightmare");  
+silence.addEventListener("click", () => {
+    wordToPicture("silence");  
+});
+
+night.addEventListener("click", () => {
+    wordToPicture("night");  
 });
