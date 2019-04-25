@@ -3,6 +3,15 @@ const afraid = document.getElementById("afraid");
 const darkness = document.getElementById("darkness");
 const silence = document.getElementById("silence");
 const night = document.getElementById("night");
+const something = document.getElementById("crawled");
+const afraid = document.getElementById("light");
+const darkness = document.getElementById("seclusion");
+const silence = document.getElementById("trees");
+const night = document.getElementById("voice");
+const something = document.getElementById("breeze");
+const afraid = document.getElementById("crowding");
+const darkness = document.getElementById("dismay");
+// const silence = document.getElementById("silence");
 
 var text;
 var clicked = false;
@@ -65,3 +74,5 @@ silence.addEventListener("click", () => {
 night.addEventListener("click", () => {
     wordToPicture("night");  
 });
+
+//add more event listeners
