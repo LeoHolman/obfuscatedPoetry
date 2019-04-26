@@ -3,15 +3,15 @@ const afraid = document.getElementById("afraid");
 const darkness = document.getElementById("darkness");
 const silence = document.getElementById("silence");
 const night = document.getElementById("night");
-const something = document.getElementById("crawled");
-const afraid = document.getElementById("light");
-const darkness = document.getElementById("seclusion");
-const silence = document.getElementById("trees");
-const night = document.getElementById("voice");
-const something = document.getElementById("breeze");
-const afraid = document.getElementById("crowding");
-const darkness = document.getElementById("dismay");
-// const silence = document.getElementById("silence");
+const crawled = document.getElementById("crawled");
+const light = document.getElementById("light");
+const seclusion = document.getElementById("seclusion");
+const trees = document.getElementById("trees");
+const voice = document.getElementById("voice");
+const breeze = document.getElementById("breeze");
+const crowding = document.getElementById("crowding");
+const dismay = document.getElementById("dismay");
+const hid = document.getElementById("hid");
 
 var text;
 var clicked = false;
@@ -75,4 +75,42 @@ night.addEventListener("click", () => {
     wordToPicture("night");  
 });
 
-//add more event listeners
+crawled.addEventListener("click", () => {
+    wordToPicture("crawled");
+});
+
+light.addEventListener("click", () => {
+    wordToPicture("light");
+});
+
+seclusion.addEventListener("click", () => {
+    wordToPicture("seclusion");
+});
+
+trees.addEventListener("click", () => {
+    wordToPicture("trees");
+});
+
+voice.addEventListener("click", () => {
+    wordToPicture("voice");
+});
+
+breeze.addEventListener("click", () => {
+    wordToPicture("breeze");
+});
+
+crowding.addEventListener("click", () => {
+    wordToPicture("crowding");
+});
+
+dismay.addEventListener("click", () => {
+    wordToPicture("dismay");
+});
+
+hid.addEventListener("click", () => {
+    wordToPicture("hid");
+});
+
+crawled.addEventListener("click", () => {
+    wordToPicture("crawled");
+});
