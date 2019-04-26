@@ -11,8 +11,7 @@
 }
 
 body {
-	background-color: #dddddd;
-	background-image: url("../images/paper.png");
+	background-color: #f0ebdd;
 	background-size: 100vw;
 	overflow-x: hidden;
 	background-repeat: repeat-y;
