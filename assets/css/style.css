@@ -12,6 +12,7 @@
 
 body {
 	background-color: #f0ebdd;
+	background-image: url("../images/blank_page.jpg");
 	background-size: 100vw;
 	overflow-x: hidden;
 	background-repeat: repeat-y;
@@ -22,6 +23,10 @@ body {
 	display: inline;
 	align-self: center;
 	filter: blur(3px);
+}
+
+.word:hover{
+	cursor: pointer;
 }
 
 img {
